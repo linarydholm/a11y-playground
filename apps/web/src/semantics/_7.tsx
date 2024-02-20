@@ -40,25 +40,25 @@ const _7 = () => {
         {/** Your solution goes here. */}
         {/* <body className="max-w-2xl w-full flex flex-col gap-2 text-center"> */}
         <div className={tw(box, 'flex-col gap-2 flex-1 border-gray-600')}>
-          <section className={tw(box, 'border-blue-300')}>Message box</section>
+          <aside className={tw(box, 'border-blue-300')}>Message box</aside>
           <header className={tw(box, 'border-blue-300')}>Header</header>
           <nav className={tw(box, 'border-purple-300')}>Navigation</nav>
-          <menu className={tw(box, 'border-purple-300')}>Breadcrumbs</menu>
+          <nav className={tw(box, 'border-purple-300')}>Breadcrumbs</nav>
           <main className={tw(box, 'flex-col gap-2')}>
             Content
-            <section className="grid grid-cols-4 w-full gap-2">
+            <div className="grid grid-cols-4 w-full gap-2">
               <aside className={tw(box, 'col-span-1 border-red-300')}>Google Adsense</aside>
-              <figure className={tw(box, 'flex-col gap-2 col-span-3 border-red-300')}>
+              <article className={tw(box, 'flex-col gap-2 col-span-3 border-red-300')}>
                 Blocks
-                <figcaption className={tw(box, 'border-yellow-300')}>Product</figcaption>
-                <figcaption className={tw(box, 'border-yellow-300')}>USP's</figcaption>
-                <figcaption className={tw(box, 'border-yellow-300')}>Product Reviews</figcaption>
-                <figcaption className={tw(box, 'border-yellow-300')}>Related Products</figcaption>
-                <figcaption className={tw(box, 'border-yellow-300')}>SEO Text</figcaption>
-              </figure>
-            </section>
+                <section className={tw(box, 'border-yellow-300')}>Product</section>
+                <section className={tw(box, 'border-yellow-300')}>USP's</section>
+                <aside className={tw(box, 'border-yellow-300')}>Product Reviews</aside>
+                <aside className={tw(box, 'border-yellow-300')}>Related Products</aside>
+                <div className={tw(box, 'border-yellow-300')}>SEO Text</div>
+              </article>
+            </div>
           </main>
-          <section className={tw(box, 'border-purple-300')}>Newsletter</section>
+          <aside className={tw(box, 'border-purple-300')}>Newsletter</aside>
           <footer className={tw(box, 'border-blue-300')}>Footer</footer>
         </div>
         {/* </body> */}
